@@ -1,0 +1,33 @@
+.episode {
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  min-height: 1204px;
+  clip-path: polygon(0 4%, 100% 0%, 100% 97%, 0% 100%);
+  padding-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 48px;
+  width: 100%;
+}
+
+.spotify {
+  width: 298px;
+  height: 225px;
+  justify-content: center;
+  margin-bottom: 11px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.title-episode {
+  padding-top: 64px;
+  width: 157px;
+  color: #ffffff;
+  display: block;
+}
+
+@media (min-width: 367px) {
+  .title-episode {
+    justify-content: center;
+    align-items: center;
+  }
+}

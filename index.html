@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home">
+        <img src="assets/img/logo.svg" alt="navLogo" class="logo"
+      /></a>
+      <nav class="navigation">
+        <div class="menu">
+          <input type="checkbox" id="menuBurger" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="menuConten">
+            <li><a href="#episode">EPISODIOS</a></li>
+            <li><a href="#about-us">NOSOTROS</a></li>
+            <li><a href="#interview">ENTREVISTAS</a></li>
+            <li><a href="#topic">TÓPICOS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <h1 class="style-title title-home">
+          <span class="hello">Hello </span>
+          <span class="world">world</span>
+          <span class="pale"> pale blue dot.</span>
+        </h1>
+        <p>
+          Un podcast que explora el mundo de la programación. Nuevos episodios,
+          todos los jueves cada 15 días.
+        </p>
+        <button class="style-button conoce">CONOCÉ MÁS</button>
+      </section>
+
+      <section class="episode" id="episode">
+        <h2 class="style-title title-episode">Episodios</h2>
+        <!--
+          <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          -->
+
+        <img
+          src="assets/img/embed1_.png"
+          alt="Lista de reproducción de spotify-Its just javascript-"
+          class="spotify"
+        />
+        <!--
+         <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          -->
+
+        <img
+          src="assets/img/embed2_.png"
+          alt="Lista de reproducción de spotify-The fundamenttals: HTML + CSS"
+          class="spotify"
+        />
+        <!--
+          <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        -->
+
+        <img
+          src="assets/img/embed3_.png"
+          alt="Lista de reproducción de spotify-The open Office"
+          class="spotify"
+        />
+        <!--
+          <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        -->
+
+        <img
+          src="assets/img/embed4_.png"
+          alt="Lista de reproducción de spotify-277: Caching GraphQL with Michael Kelly"
+          class="spotify"
+        />
+      </section>
+
+      <section class="about-us" id="about-us">
+        <img
+          src="assets/img/phone.png"
+          alt="Celular con noticia -The Secret History of Women in Coding-"
+          class="img-phone"
+        />
+        <h2 class="style-title title-about-us">De dónde venimos</h2>
+        <p class="text-about-us">
+          Our posturings, our imagined self-importance, the delusion that we
+          have some privileged position in the Universe, are challenged by this
+          point of pale light. <br><br> Our planet is a lonely speck in the great
+          enveloping cosmic dark. In our obscurity, in all this vastness, there
+          is no hint that help will come from elsewhere to save us from
+          ourselves.
+        </p>
+      </section>
+
+      <section class="interview" id="interview">
+        <h2 class="style-title title-interview">Invitadas/os estelares</h2>
+        <img src="assets/img/grace-hopper.png" alt="Grace Hopper" />
+        <img src="assets/img/Katie-Bouman.png" alt="Katie Bouman" />
+        <img src="assets/img/Margaret_Hamilton.png" alt="Margaret Hamilton" />
+        <img
+          src="assets/img/An E.R.A.Univac 1103 computer in the 1950s.png"
+          alt="Computer in 1950"
+        />
+        <img
+          src="assets/img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+          alt="computer operations with an Eniac"
+        />
+        <img src="assets/img/susan-kare.png" alt="susan Kare" />
+      </section>
+
+      <section class="topic" id="topic">
+        <h2 class="style-title title-topic">Algunos de nuestros temas</h2>
+        <img src="assets/img/icon1.svg" alt="Agrupación de archivos" />
+        <span class="primer-texto">Trabajo remoto</span>
+        <img src="assets/img/icon2.svg" alt="Cabeza guardando información" />
+        <span class="segundo-texto">Repensando la programación</span>
+        <img
+          src="assets/img/icon3.svg"
+          alt="Portail con codigo de programación"
+        />
+        <span>Bases del código</span>
+        <img src="assets/img/icon4.svg" alt="Base de datos protegida" />
+        <span>Seguridad informática</span>
+      </section>
+
+      <section class="new">
+        <h2 class="style-title title-new">¿Querés las últimas novedades?</h2>
+        <button class="style-button">ESCUCHÁ LOS EPISODIOS</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2019— Hello blue pale dot</p>
+      <ul class="social-network">
+        <li><i class="fab fa-spotify"></i></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-facebook"></i></li>
+        <li><i class="fab fa-facebook"></i></i></li>
+      </ul>
+    </footer>
+  </body>
+</html>

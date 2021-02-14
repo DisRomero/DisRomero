@@ -1,0 +1,53 @@
+@import "header";
+@import "home";
+@import "episode";
+@import "aboutUs";
+@import "interview";
+@import "topic";
+@import "new";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
+*/
+
+/*
+.style-title{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+
+
+Done Mobile
+            menu
+            header
+
+            episodios
+            episode
+
+            nosotros
+            about us
+
+            entrevistas
+            interview
+
+            topicos
+            topic
+
+          novedades
+          new
+
+footer
+
+organizarlo a viewport
+agregar comentario arriba de los links
+*/

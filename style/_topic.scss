@@ -1,0 +1,42 @@
+.topic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #060a24;
+
+  img {
+    width: 104px;
+    height: 104px;
+  }
+  span {
+    margin-top: 13px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 52px;
+  }
+}
+
+.title-topic {
+  margin-top: 48px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  width: 288px;
+  height: 84px;
+  align-self: flex-start;
+}
+
+.primer-texto {
+  margin-bottom: 36px;
+}
+
+.segundo-texto {
+  width: 288px;
+  height: 64px;
+}
+
+/*
+icon1   trabajo remoto
+*/
