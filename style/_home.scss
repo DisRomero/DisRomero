@@ -42,6 +42,7 @@
   }
     .conoce{
     width: 18%;
+    margin-left: 0;
   }
 }
   
@@ -49,6 +50,8 @@
 
 @media screen and (min-width:1023px){
   .home{
+    margin-left: 8em;
+
     .title-home{
       letter-spacing: .1em;
     }
@@ -57,11 +60,11 @@
   } 
     .text-desktop{
     display: block;
-    width: 35%;
+    width: 45%;
     line-height: 1.5em;
   }
     .conoce{
-    width: 15%;
+    width: 20%;
   }
 
 }

@@ -1,33 +1,83 @@
 .episode {
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
-  min-height: 1204px;
+  margin-top: 1em;
+  height: auto;//
+  width: 100%;
   clip-path: polygon(0 4%, 100% 0%, 100% 97%, 0% 100%);
-  padding-left: 16px;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 48px;
-  width: 100%;
-}
-
-.spotify {
-  width: 298px;
-  height: 225px;
+  padding-top: 2em;
+  padding-bottom: 10em;
   justify-content: center;
-  margin-bottom: 11px;
-  margin-left: 11px;
-  margin-right: 11px;
 }
 
 .title-episode {
-  padding-top: 64px;
-  width: 157px;
+  width: 49%;
   color: #ffffff;
   display: block;
+  margin-top: 1em;
+  padding-left: .5em;
+  padding-bottom: .5em;
 }
 
-@media (min-width: 367px) {
-  .title-episode {
-    justify-content: center;
-    align-items: center;
+.spotify {
+  height: auto;
+  
+  iframe{
+  width: 96%;
+  height: 15em;
+  padding-left: .8em;
+  padding-bottom: .2em;
+}
+}
+
+@media screen and (min-width:768px){
+  .episode{
+    clip-path: polygon(0 8%, 100% 0%, 100% 85%, 0% 100%);
+    justify-content: space-around;
+    padding-bottom: 6em;
   }
+  .title-episode {
+    padding-left: 2.3em;
+  }    
+
+  .spotify {    
+    iframe{
+    width: 49%;
+    height: 14.5em;
+    padding-bottom: .05em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  }
+}
+
+@media screen and (min-width:1023px){
+  .episode{
+    clip-path: polygon(0 6%, 100% 0%, 100% 97%, 0% 100%);
+    padding-left: 1em;
+    padding-bottom: 6em;
+
+  }
+
+  .spotify {
+    
+    padding-left: 1em;
+
+    .title-episode {
+      margin-top: 1.2em;
+      padding-left: 2.35em;
+    } 
+    
+    iframe{
+    width: 47%;
+    height: 14.5em;
+    padding-left: 2em;
+  
+  }
+  
+}
+  
+  
+
 }
