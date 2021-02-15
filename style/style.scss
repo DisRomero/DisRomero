@@ -17,11 +17,33 @@
 
 .style-text{
   font-family: 'IBM Plex Mono', monospace;
-font-size: 1em;
-letter-spacing: 0;
-line-height: 1.75em;
+  font-size: 1em;
+  letter-spacing: 0;
+  line-height: 1.5em;
 }
 
+.style-title{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2.25em;
+  letter-spacing: 0;
+  line-height: 1.4em;
+}
+
+.style-button {
+  width: 90%;
+  height: 2.7em;
+  background: #00f3bb;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1em;
+  font-weight:bold;
+  margin-top: 1.4em;
+  margin-left: .5em;
+  text-align: center;
+  border-style: none;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 1.5em;
+}
 
 /*
 font-family: 'IBM Plex Mono', monospace;
@@ -29,33 +51,24 @@ font-family: 'IBM Plex Sans', sans-serif;
 */
 
 /*
-.style-title{
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 36px;
-    letter-spacing: 0;
-    line-height: 42px;
-}
-
-
-
 Done Mobile
             menu
             header
 
-            episodios
-            episode
+episodios
+episode
 
-            nosotros
-            about us
+nosotros
+about us
 
-            entrevistas
-            interview
+entrevistas
+interview
 
-            topicos
-            topic
+topicos
+topic
 
-          novedades
-          new
+novedades
+new
 
 footer
 
