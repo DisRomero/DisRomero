@@ -1,171 +1,145 @@
 /*
 font-family: 'IBM Plex Mono', monospace;
 font-family: 'IBM Plex Sans', sans-serif;
+
 */
-.header {
+
+nav{
+  height: 2.75em;
   width: 100%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 0;
+}
+
+.logo{
+  margin-left: 70%;
+}
+
+.menu-conten{
   position: fixed;
-  height: 44px;
-  top: 0;
-  background: #ffffff;
-}
-
-.logo {
-  float: left;
-  width: 24px;
-  height: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-}
-
-.navigation {
-  float: right;
-}
-
-.menuConten {
   width: 100%;
-  position: absolute;
-  top: 44px;
-  right: 0;
-  overflow: hidden;
-  list-style: none;
-  background: #0000ec;
-  height: 0px;
-  transition: height 0.5s ease;
+  height: 0em;
+  top: 2.75em;
+  background: #0000EC;
+  text-align: left;
+  transition: all .5;
 }
 
-.menuConten li {
-  position: relative;
-  a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #ffffff;
-    letter-spacing: 0;
-    line-height: 28px;
-    display: block;
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 24px;
-    font-family: "IBM Plex Mono", monospace;
-  }
-}
-
-.menuConten li a:hover {
-  font-family: "IBMPlexMono-Medium", monospace;
-  color: #00f3bb;
-  text-decoration: line-through;
-}
-
-.menuConten li a:active {
-  color: rgba(6, 10, 36, 0.56);
-  text-decoration: line-through;
-}
-
-.menu input[type="checkbox"]:checked ~ ul {
-  height: 224px;
-  transition: height 0.5s ease-in-out;
-  -moz-transition: height 0.5s ease-in-out;
-  -o-transition: height 0.5s ease-in-out;
-  -webkit-transition: height 0.5s ease-in-out;
-}
-
-.menu {
-  margin-top: 16px;
-  margin-right: 19px;
-  margin-bottom: 16px;
-  input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    opacity: 0;
-    z-index: 2;
-    position: absolute;
-  }
-
-  span {
-    display: block;
-    width: 18px;
-    height: 2px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #000;
-    z-index: 1;
-    transform-origin: 3px -1px;
-    transition: transform 0.5s ease, opacity 0.55s ease;
-  }
-}
-
-.menu span:first-child {
-  transform-origin: 0% 0%;
-}
-
-.menu span:nth-last-child(2) {
-  transform-origin: 0% 100%;
-}
-
-.menu input:checked ~ span {
-  opacity: 1;
-  transform: rotate(45deg) translate(3px, 2px);
-}
-
-.menu input:checked ~ span:nth-last-child(3) {
+.menu-conten li{
   opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  transition: all .5;
+  margin-left: 5%;
+  margin-top: 7%;
+  a{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  }  
 }
 
-.menu input:checked ~ span:nth-last-child(2) {
-  transform: rotate(-45deg) translate(1px, 0px);
+.menu-conten li a:active{
+  color: rgba(6,10,36,0.56);
+  text-decoration:line-through;
+  transition: 0.5s;
 }
 
-@media (min-width: 768px) {
-  header {
-    width: 100%;
-    height: 80px;
+
+.menu-conten li a:hover{
+  color: #00F3BB;
+  text-decoration:line-through;
+  transition: 0.5s;
+}
+
+.burger-btn{
+  display: block;
+  font-size: 1.5em;
+  color: black;
+  float: right;
+  line-height: 1.9em;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+#check{
+  display: none;
+}
+
+#check:checked ~ .menu-conten{
+  height: 14em;
+}
+
+#check:checked ~ .menu-conten li{
+  opacity: 1;
+}
+@media screen and (min-width:768px){
+  .logo-container{
+    margin-left: 1.4em;
+  }
+  nav{
+    height: 4em;
+    padding-right: 2em;
+  }
+  .burger-btn{
+    display: none;
   }
 
-  .logo {
-    width: 36px;
-    height: 36px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 100px;
+  .logo{
+    width: 1.8em;
+    height: 1.8em;
   }
-
-  .menu ul {
+  .menu-conten{
     position: relative;
+    height: 4em;
     top: 0;
-    right: 0;
-    overflow: hidden;
-    background: unset;
-    height: unset;
+    background: none;
+    float: right;
+    text-align: right;
+    margin-right: 0;
+    transition: none;
   }
-
-  .menu ul li {
-    padding: 5px 10px;
+  .menu-conten li{
     display: inline-block;
-    border: 1px solid springgreen; //editar
+    opacity: 1;
+    line-height: 4em;
+    margin-top: 0;
+    margin-left: 1em;
+    transition: none;
+    a{
+      color: #060A24;
+      text-transform: uppercase;
+      }  
+  }
+}
+
+@media screen and (min-width:1023px){
+  .logo-container{
+    margin-left: 1.6em;
   }
 
-  .menu ul li:hover {
-    background: unset;
-    border-bottom: 2px solid black;
+  nav{
+    height: 5em;
+    padding-right: 3em;
   }
 
-  .menu ul li a {
-    padding: unset;
-    line-height: unset;
+  .logo{
+    width: 2.25em;
+    height: 2.25em;
+  }
+  .menu-conten{
+    height: 5em;
+    margin-right: 1.6em;
   }
 
-  .menu ul li a:hover {
-    color: unset;
-  }
+  .menu-conten li{
+    line-height: 5em;
+    margin-left: 3em;
 
-  .menu input {
-    display: none;
-  }
-
-  .menu span {
-    display: none;
   }
 }
