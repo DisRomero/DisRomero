@@ -365,13 +365,13 @@ nav {
   }
 }
 
+/*
 .interview {
   line-height: 0;
   width: 100%;
-}
-
-.interview img {
-  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .title-interview {
@@ -381,6 +381,63 @@ nav {
   margin-top: 54px;
   margin-left: 16px;
   margin-bottom: 14px;
+}
+
+*/
+.interview {
+  margin-top: 50em;
+}
+
+.title-interview {
+  margin-left: .5em;
+}
+
+.container-interview {
+  line-height: 0;
+}
+
+.container-interview img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .interview {
+    margin-top: 30em;
+  }
+  .title-interview {
+    margin-left: 2.3em;
+    margin-bottom: 1em;
+  }
+}
+
+.container-interview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-interview img {
+  width: 50%;
+}
+
+@media screen and (min-width: 1023px) {
+  .interview {
+    margin-top: 40em;
+    margin-left: 2em;
+  }
+  .container-interview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -2em;
+  }
+  .container-interview img {
+    width: 33.3%;
+  }
 }
 
 .topic {
@@ -580,8 +637,8 @@ Done
             episodios
             episode
 
-nosotros
-about us
+            nosotros
+            about us
 
 entrevistas
 interview
