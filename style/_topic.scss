@@ -1,42 +1,73 @@
-.topic {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #060a24;
 
-  img {
-    width: 104px;
-    height: 104px;
+.topic{
+  margin-top: 2em;
+  margin-left: 1em;
+
+  .container-topic{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    align-items: center;
+
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 70%;
+    }
+    img{
+      width: 6.5em;
+      margin-top: 2em;
+    }
+
+    .text-topic{
+      margin-bottom: 1em;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight:bold
+    }
   }
-  span {
-    margin-top: 13px;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 24px;
-    letter-spacing: 0;
-    text-align: center;
-    margin-bottom: 52px;
+}
+
+@media screen and (min-width:768px){
+  .topic{
+    .title-topic{
+      margin-left: 1.8em;
+    }
+    .container-topic{
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  
+      div{
+        width: 39%;
+      }
+    }
   }
 }
 
-.title-topic {
-  margin-top: 48px;
-  margin-left: 16px;
-  margin-bottom: 24px;
-  width: 288px;
-  height: 84px;
-  align-self: flex-start;
+@media screen and (min-width:1023px){  
+  .topic{
+    .title-topic{
+      margin-left: 2.8em;
+    }
+  .container-topic{
+    width: 77%;
+     div{
+      width: 25%;
+      img{
+        width: 7.5em;
+      }
+      .text-topic{
+        font-size: 1.5em;
+      }
+    }
+  }
+}
 }
 
-.primer-texto {
-  margin-bottom: 36px;
-}
 
-.segundo-texto {
-  width: 288px;
-  height: 64px;
-}
-
-/*
-icon1   trabajo remoto
-*/
