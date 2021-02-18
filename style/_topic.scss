@@ -1,73 +1,68 @@
-
-.topic{
+.topic {
   margin-top: 2em;
   margin-left: 1em;
 
-  .container-topic{
+  .container-topic {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
     width: 90%;
     align-items: center;
 
-    div{
+    div {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       width: 70%;
     }
-    img{
+    img {
       width: 6.5em;
       margin-top: 2em;
     }
 
-    .text-topic{
+    .text-topic {
       margin-bottom: 1em;
       text-align: center;
       font-size: 1.5em;
-      font-weight:bold
+      font-weight: bold;
     }
   }
 }
 
-@media screen and (min-width:768px){
-  .topic{
-    .title-topic{
+@media screen and (min-width: 768px) {
+  .topic {
+    .title-topic {
       margin-left: 1.8em;
     }
-    .container-topic{
+    .container-topic {
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
       flex-wrap: wrap;
-  
-      div{
+
+      div {
         width: 39%;
       }
     }
   }
 }
 
-@media screen and (min-width:1023px){  
-  .topic{
-    .title-topic{
+@media screen and (min-width: 1023px) {
+  .topic {
+    .title-topic {
       margin-left: 2.8em;
     }
-  .container-topic{
-    width: 77%;
-     div{
-      width: 25%;
-      img{
-        width: 7.5em;
-      }
-      .text-topic{
-        font-size: 1.5em;
+    .container-topic {
+      width: 79%;
+      div {
+        width: 25%;
+        img {
+          width: 7.5em;
+        }
+        .text-topic {
+          font-size: 1.5em;
+        }
       }
     }
   }
 }
-}
-
-

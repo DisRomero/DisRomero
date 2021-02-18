@@ -1,3 +1,5 @@
+/*
+
 .new {
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
@@ -18,4 +20,32 @@
   margin-top: 64px;
   color: #ffffff;
   text-align: center;
+}
+
+*/
+
+.new {
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .title-new {
+    padding-top: 2em;
+    color: #ffffff;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .new {
+    .title-new {
+      width: 43em;
+    }
+    .style-button {
+      width: 21.5em;
+    }
+  }
 }

@@ -1,5 +1,4 @@
 .home {
-  //color: #060a24;
   margin-top: 2em;
   margin-left: 1em;
 
@@ -7,67 +6,63 @@
     width: 90%;
     margin-top: 1em;
     text-align: justify;
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
-  .world{
+  .world {
     text-decoration: line-through;
   }
 
-  .pale{
+  .pale {
     display: block;
   }
 
-  .text-desktop{
+  .text-desktop {
     display: none;
   }
 }
 
-@media screen and (min-width:768px){
-  .home{
+@media screen and (min-width: 768px) {
+  .home {
     margin-top: 3em;
     margin-left: 5em;
 
-    .text-mobile{
+    .text-mobile {
       display: none;
     }
 
-    .text-desktop{
+    .text-desktop {
       display: block;
       width: 50%;
     }
 
-    .pale{
-    display: inline-block;
+    .pale {
+      display: inline-block;
+    }
+    .conoce {
+      width: 18%;
+      margin-left: 0;
+    }
   }
-    .conoce{
-    width: 18%;
-    margin-left: 0;
-  }
-}
-  
 }
 
-@media screen and (min-width:1023px){
-  .home{
+@media screen and (min-width: 1023px) {
+  .home {
     margin-left: 8em;
 
-    .title-home{
-      letter-spacing: .1em;
+    .title-home {
+      letter-spacing: 0.1em;
     }
-    .dot{
-      color: #0000EC;
-  } 
-    .text-desktop{
-    display: block;
-    width: 45%;
-    line-height: 1.5em;
+    .dot {
+      color: #0000ec;
+    }
+    .text-desktop {
+      display: block;
+      width: 45%;
+      line-height: 1.5em;
+    }
+    .conoce {
+      width: 20%;
+    }
   }
-    .conoce{
-    width: 20%;
-  }
-
-}
-
-
 }
