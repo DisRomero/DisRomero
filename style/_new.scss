@@ -3,7 +3,7 @@
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   padding-bottom: 3em;
 
   .title-new {
@@ -16,9 +16,6 @@
 
 @media screen and (min-width: 768px) {
   .new {
-    .title-new {
-      width: 43em;
-    }
     .style-button {
       width: 21.5em;
     }
