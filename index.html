@@ -5,28 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Podcast Channel</title>
     <link rel="stylesheet" href="style/style.css" />
-    
+
     <!-- fuente de letra IBM Mono -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
-   
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
     <!--fuente de letra IBM Plex Sans-->
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
-    
-   <!-- fuente iconos font awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fuente iconos font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css"
+    />
   </head>
   <body>
     <header>
       <nav>
         <div class="logo-container">
-          <img class="logo" src="assets/img/logo.svg" alt="logo"/>
+          <img class="logo" src="assets/img/logo.svg" alt="logo" />
         </div>
-        <input type="checkbox" id="check">
+        <input type="checkbox" id="check" />
+
         <label for="check" class="burger-btn">
-          <i class="fas fa-bars"></i>
+          <span></span>
+          <span></span>
+          <span></span>
         </label>
+
         <ul class="menu-conten">
           <li><a class="style-text" href="#episode">Episodios</a></li>
           <li><a class="style-text" href="#about-us">Nosotros</a></li>
@@ -43,53 +56,77 @@
             <span class="world">world</span>
             <span class="pale"> pale blue dot<span class="dot">.</span></span>
           </h1>
-          <p class="style-text text-mobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
-          <p class="style-text text-desktop">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
-            <button class="conoce style-button">Conocé más</button>
+          <p class="style-text text-mobile">
+            Un podcast que explora el mundo de la programación. Nuevos
+            episodios, todos los jueves cada 15 días.
+          </p>
+          <p class="style-text text-desktop">
+            El portal de podcasts que explora el mundo de la programación y la
+            tecnología. Nuevos episodios, todos los jueves cada 15 días.
+          </p>
+          <button class="conoce style-button">Conocé más</button>
         </div>
       </section>
-      
+
       <section class="episode" id="episode">
         <div class="spotify">
           <h2 class="style-title" id="title-episode">Episodios</h2>
-          <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
-          <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
-          <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
-          <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
-          </div>  
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
       </section>
 
       <section class="about-us center" id="about-us">
-        
         <img
           src="assets/img/phone.png"
           alt="Celular con noticia -The Secret History of Women in Coding-"
           class="img-phone center"
-        /> 
+        />
         <div class="container-about-us">
           <h2 class="style-title title-about-us">De dónde venimos</h2>
-          <p class="style-text text-about-us">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. </p> 
-          <p class="style-text text-about-us">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
-      </div>
+          <p class="style-text text-about-us">
+            Our posturings, our imagined self-importance, the delusion that we
+            have some privileged position in the Universe, are challenged by
+            this point of pale light.
+          </p>
+          <p class="style-text text-about-us">
+            Our planet is a lonely speck in the great enveloping cosmic dark. In
+            our obscurity, in all this vastness, there is no hint that help will
+            come from elsewhere to save us from ourselves.
+          </p>
+        </div>
       </section>
 
       <section class="interview" id="interview">
         <h2 class="style-title title-interview">Invitadas/os estelares</h2>
         <div class="container-interview">
           <img src="assets/img/grace-hopper.png" alt="Grace Hopper" />
-        <img src="assets/img/Katie-Bouman.png" alt="Katie Bouman" />
-        <img src="assets/img/Margaret_Hamilton.png" alt="Margaret Hamilton" />
-        <img
-          src="assets/img/An-ERA-Univac-1103-computer-in-the-1950s.png"
-          alt="Computer in 1950"
-        />
-        <img
-          src="assets/img/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png"
-          alt="computer operations with an Eniac"
-        />
-        <img src="assets/img/susan-kare.png" alt="susan Kare" />
+          <img src="assets/img/Katie-Bouman.png" alt="Katie Bouman" />
+          <img src="assets/img/Margaret_Hamilton.png" alt="Margaret Hamilton" />
+          <img
+            src="assets/img/An-ERA-Univac-1103-computer-in-the-1950s.png"
+            alt="Computer in 1950"
+          />
+          <img
+            src="assets/img/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png"
+            alt="computer operations with an Eniac"
+          />
+          <img src="assets/img/susan-kare.png" alt="susan Kare" />
         </div>
-
       </section>
 
       <section class="topic" id="topic">
@@ -97,12 +134,17 @@
         <div class="container-topic center">
           <div>
             <img src="assets/img/icon1.svg" alt="Agrupación de archivos" />
-            <span class="style-title  text-topic">Trabajo remoto</span>
+            <span class="style-title text-topic">Trabajo remoto</span>
           </div>
           <div>
-            <img src="assets/img/icon2.svg" alt="Cabeza guardando información" />
-            <span class="style-title  text-topic">Repensando la programación</span>
-        </div>
+            <img
+              src="assets/img/icon2.svg"
+              alt="Cabeza guardando información"
+            />
+            <span class="style-title text-topic"
+              >Repensando la programación</span
+            >
+          </div>
           <div>
             <img
               src="assets/img/icon3.svg"
@@ -113,27 +155,53 @@
           <div>
             <img src="assets/img/icon4.svg" alt="Base de datos protegida" />
             <span class="style-title text-topic">Seguridad informática</span>
+          </div>
         </div>
-        </div>
-
       </section>
 
-      <section class="new ">      
-          <h2 class="style-title title-new center">¿Querés las últimas novedades?</h2>
-          <button class="style-button center">Escuchá los episodios</button>        
+      <section class="new">
+        <h2 class="style-title title-new center">
+          ¿Querés las últimas novedades?
+        </h2>
+        <button class="style-button center">Escuchá los episodios</button>
       </section>
     </main>
-       
+
     <footer class="footer center">
       <p class="style-text center">© 2019— Hello blue pale dot</p>
-      <ul class="social-network center ">
-        <li><a href="https://www.spotify.com/co/" title="icono de Spotify"><i class="fab fa-spotify"></i></a></li>
-        <li><a href="https://www.instagram.com/acamica/?hl=es-la" title="icono de instagram"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://twitter.com/Acamica_com?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="icono de twitter"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://www.facebook.com/Acamica.org/" title="icono de facebook"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://web.telegram.org/#/login" title="icono de telegram"><i class="fab fa-telegram"></i></a></li>
+      <ul class="social-network center">
+        <li>
+          <a href="https://www.spotify.com/co/" title="icono de Spotify"
+            ><i class="fab fa-spotify"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/acamica/?hl=es-la"
+            title="icono de instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/Acamica_com?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            title="icono de twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/Acamica.org/"
+            title="icono de facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://web.telegram.org/#/login" title="icono de telegram"
+            ><i class="fab fa-telegram"></i
+          ></a>
+        </li>
       </ul>
     </footer>
-
   </body>
 </html>
